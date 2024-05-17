@@ -10,7 +10,7 @@ import 'package:totalx/features/home/presentation/view/widgets/userlist_widget.d
 import 'package:totalx/features/login/presentation/provider/auth_provider.dart';
 import 'package:totalx/features/search%20user/presentation/view/screen/search_user_screen.dart';
 import 'package:totalx/general/core/common/loader.dart';
-import 'package:totalx/general/services/show_dialog.dart';
+import 'package:totalx/general/services/show_dialog.dart'; 
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

@@ -136,7 +136,6 @@ class UserRepository {
             (e) => UserModel.fromMap(e.data() as Map<String, dynamic>),
           )
           .toList();
-
       return right(userList);
     } catch (ex) {
       log("Error:$ex");
